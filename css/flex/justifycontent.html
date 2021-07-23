@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify content</title>
+    <style>
+        .container{
+            background-color: silver;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            /* justify-content: flex-end; */
+            /* flex-start */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+            /* align-items: center; */
+            /* align-items: flex-end; */
+            /* flex-start */
+            align-items: stretch;
+        }
+        .item{
+            /* height: 100px; */
+            width:100px;
+            background-color: orangered;
+            /* margin: 10px; */
+        }
+        .item-content{
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item item-content"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>

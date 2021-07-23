@@ -1,0 +1,13 @@
+.container{
+    background-color: silver;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.content{
+    background-color: red;
+    height: 200px;
+    width:300px;
+    margin:10px;
+}
